@@ -75,6 +75,7 @@ ul li{
     list-style-type: square;
 }
 dt{
+    color: lightblue;
     font-weight: bold;
     font-size: 2rem;
 }
@@ -87,4 +88,43 @@ dd{
 .interestheader{
     font-size: 2.5rem;
     color: yellow;
+}
+.break{
+    background-color: rgb(20, 104, 104);
+    border: 1px solid black;
+    color: rgb(24, 8, 8);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
+label{
+    background-color: lightgrey;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: 0.5rem;
+}
+table, th, td{
+    width: 50%;
+    border: 1px solid;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.shows{
+    color: yellow;
+}
+a:link{
+    color: yellow;
+}
+a:visited{
+    color: lightgreen;
+}
+a:hover{
+    color:orange;
+}
+a:active{
+    color:aquamarine;
 }
